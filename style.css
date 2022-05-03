@@ -13,7 +13,6 @@
     font-weight: 300;
     font-size: 22px;
     --background-color2: #e1dfe4;
-    /* --background-color: #363062; */
     --background-color: rgb(0, 0, 0);
     --color-palette-1: rgba(238, 169, 135, 0.427);
     --color-palette-2: rgb(185,113,159);
@@ -22,23 +21,14 @@
 }
 
 html {
-    /* width: 100%; */
-    /* height: 100%; */
     display: flex;
-    /* align-items: center; */
     justify-content: center;
-    /* background-color: var(--background-color); */
-    /* background: rgb(0,0,0); */
-    /* background: linear-gradient(180deg, rgba(0,0,0,1) 70%, rgb(3, 8, 28) 100%); */
     background: linear-gradient(180deg, rgb(3, 8, 28) 30%, rgba(0,0,0,1) 100%);
-    /* background-image: url(./images/omid-armin-miQ9_83D7e0-unsplash.jpg); */
 } 
 
 body {
-    /* width: 80%; */
     height: 100%;
     display: flex
-    /* height: 100%; */
 }
 
 .side {
@@ -55,27 +45,20 @@ body {
 .main {
     display: flex;
     flex-direction: column;
-    /* padding: 0 5rem 0 0; */
 }
 .intro{
-    /* font-family: 'Radio Canada', sans-serif; */
     font-family: 'Oxygen';
     color: rgb(187, 187, 187);
     padding: 6rem 3rem 1rem 2rem;
     font-size: 1.2rem;
 }
-form{
-    /* padding-left: 2rem; */
-}
+
 .form-container {
     padding: 3rem 0 2rem 2rem;
-    /* padding-top: 3rem; */
-    /* padding-left: 2rem; */
     font-size: 0.6rem;
     letter-spacing: 0.15rem;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
     gap: 2rem;
     background-color: rgba(255, 255, 255, 0.019);
     box-shadow: 0 10px 20px -2px rgba(185, 113, 159, 0.105);
@@ -98,12 +81,12 @@ input{
     appearance: none;
     -webkit-appearance: none;
 }
+
 input:focus{
-    /* border: 1px solid rgb(52, 50, 62); */
     outline: none;
     border: 2px solid var(--color-palette-3);
-    /* accent-color: var(--color-palette-2); */
 }
+
 .bottom{
     font-family: 'Radio Canada', sans-serif;
     font-size: 0.74rem;
@@ -131,7 +114,6 @@ input:focus{
     top: 40%;
     padding: 8px;
     gap: 4px;
-    /* opacity: 0.5; */
 }
 button{
     font-family: 'Radio Canada', sans-serif;
@@ -139,7 +121,6 @@ button{
     color: var(--color-palette-2);
     border: 4px solid var(--color-palette-2);
     background-color: rgba(255, 255, 255, 0);
-    /* background-color: var(--color-palette-2); */
     border-radius: 5px;
     padding: 0.5rem 2rem;
     margin-bottom: 2rem;

@@ -30,27 +30,27 @@
                 <div class="form-container">
                     <div class="pair">
                         <label for="firstName">FIRST NAME</label>
-                        <input type="text" name="first-name" id="firstName">
+                        <input type="text" name="first-name" id="firstName" required maxlength="40">
                     </div>
                     <div class="pair">
                         <label for="lastName">LAST NAME</label>
-                        <input type="text" name="last-name" id="lastName">
+                        <input type="text" name="last-name" id="lastName" required maxlength="40">
                     </div>
                     <div class="pair">
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required minlength="4">
                     </div>
                     <div class="pair">
                         <label for="phone">PHONE NUMBER</label>
-                        <input type="number" name="phone" id="phone">
+                        <input type="tel" name="phone" id="phone" required pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}">
                     </div>
                     <div class="pair">
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required minlength="8">
                     </div>
                     <div class="pair">
                         <label for="password2">CONFIRM PASSWORD</label>
-                        <input type="password" name="password2" id="password2">
+                        <input type="password" name="password2" id="password2" required minlength="8">
                     </div>
                 </div>
                     <div class="bottom">

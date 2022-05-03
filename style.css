@@ -22,14 +22,15 @@
 }
 
 html {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
     display: flex;
     /* align-items: center; */
     justify-content: center;
     /* background-color: var(--background-color); */
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 70%, rgb(3, 8, 28) 100%);
+    /* background: rgb(0,0,0); */
+    /* background: linear-gradient(180deg, rgba(0,0,0,1) 70%, rgb(3, 8, 28) 100%); */
+    background: linear-gradient(180deg, rgb(3, 8, 28) 30%, rgba(0,0,0,1) 100%);
     /* background-image: url(./images/omid-armin-miQ9_83D7e0-unsplash.jpg); */
 } 
 
@@ -45,6 +46,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    width: 40vw;
+    flex-shrink: 0;
     aspect-ratio: 0.76;
     box-shadow: 0 0 4px 4px rgb(0, 0, 0) inset;
     z-index: 0;
@@ -57,7 +60,7 @@ body {
 .intro{
     /* font-family: 'Radio Canada', sans-serif; */
     font-family: 'Oxygen';
-    color: rgb(153, 151, 151);
+    color: rgb(187, 187, 187);
     padding: 6rem 3rem 1rem 2rem;
     font-size: 1.2rem;
 }
@@ -82,8 +85,11 @@ form{
     display: flex;
     flex-direction: column;
 }
+label{
+    color: rgb(133, 132, 132);
+}
 input{
-    color: white;
+    color: rgb(181, 181, 181);
     background-color: black;
     border: 1px solid rgb(52, 50, 62);
     border-radius: 4px;
@@ -137,4 +143,7 @@ button{
     border-radius: 5px;
     padding: 0.5rem 2rem;
     margin-bottom: 2rem;
+}
+a{
+    color:var(--color-palette-2)
 }

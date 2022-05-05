@@ -125,6 +125,14 @@ button{
     padding: 0.5rem 2rem;
     margin-bottom: 2rem;
 }
+button:hover{
+    /* background-color: rgb(21, 19, 41); */
+    border: 4px solid rgb(230, 157, 204);
+    /* color: rgb(187, 187, 187); */
+    /* color: var(--color-palette-1) */
+    color: rgb(230, 157, 204);
+    background-color: rgb(13, 13, 13);
+}
 a{
-    color:var(--color-palette-2)
+    color:var(--color-palette-2);
 }
